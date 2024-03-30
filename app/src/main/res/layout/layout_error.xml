@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/error_view"
+    android:background="@android:color/white"
+    android:visibility="gone"
+    android:layout_marginTop="-80dp"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:src="@drawable/ic_error_sad"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:ignore="ContentDescription"
+        app:tint="#252525" />
+
+    <TextView
+        android:textColor="#252525"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Oops! Something went wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:textColor="#252525"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Error Title"
+        android:id="@+id/error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:textColor="#252525"
+        android:textAlignment="center"
+        android:text="Error Message"
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/try_again"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="TRY AGAIN"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

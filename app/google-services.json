@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "762109750818",
+    "firebase_url": "https://your-black-mall.firebaseio.com",
+    "project_id": "your-black-mall",
+    "storage_bucket": "your-black-mall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762109750818:android:a94f7d3224ac2008c9a47b",
+        "android_client_info": {
+          "package_name": "com.yourblackmall.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762109750818-galdhv1qilc3pm4ipbttfibp95l9k29m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yourblackmall.app",
+            "certificate_hash": "2a1b76308e0cc22675053a16c988c5dff46289c9"
+          }
+        },
+        {
+          "client_id": "762109750818-pg2ejoj0u53f27rmbai9emdl6so4fiui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGM156uD62jLlI00FkzQszJqdE6noQUXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762109750818-pg2ejoj0u53f27rmbai9emdl6so4fiui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

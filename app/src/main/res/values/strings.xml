@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">webЯcade</string>
+    <string name="base_url">https://play.webrcade.com/</string>
+</resources>

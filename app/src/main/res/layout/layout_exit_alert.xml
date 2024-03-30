@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/exit_alert_view"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:src="@drawable/ic_exit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        tools:ignore="ContentDescription"
+        app:tint="@color/colorAccent" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textColor="#575757"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to exit?"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textColor="#959595"
+            android:backgroundTint="#F9F9F9"
+            android:background="@drawable/button_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/btnNo"
+            android:text="No"
+            tools:ignore="ButtonStyle,HardcodedText"
+            tools:targetApi="lollipop" />
+        <Button
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:background="@drawable/button_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/btnYes"
+            android:text="Yes, Exit"
+            tools:ignore="ButtonStyle,HardcodedText"
+            tools:targetApi="lollipop" />
+    </LinearLayout>
+
+</LinearLayout>

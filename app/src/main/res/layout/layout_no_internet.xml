@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/no_internet_view"
+    android:gravity="center"
+    android:layout_marginTop="-80dp"
+    android:visibility="gone"
+    android:background="@android:color/white"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:src="@drawable/ic_no_internet"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:ignore="ContentDescription"
+        app:tint="#252525" />
+
+    <TextView
+        android:textColor="#252525"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="No Internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:textColor="#252525"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="You are not connected to internet.\nPlease check your internet connection."
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/check_settings"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Check Settings"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
