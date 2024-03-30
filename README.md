@@ -1,7 +1,7 @@
 #webRcade
 
 webRcade
-Version 1.1 Update
+Version 1.1 Release
 
 Introducing an Android iteration of webRcade.
 
